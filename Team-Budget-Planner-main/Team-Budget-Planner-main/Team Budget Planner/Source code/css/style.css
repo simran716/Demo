@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Sans-Serif, Arial !important;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+  }
+  body,
+  html {
+    height: 100%;
+  }
+  img {
+    max-width: 100%;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  p {
+    line-height: 150%;
+    /* margin-bottom: 2em; */
+  }
+  
+  .container_full {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .fix {
+    overflow: hidden;
+  }
+  .aligncenter {
+    display: block;
+    margin: 0 auto;
+  }
+  .floatleft {
+    float: left;
+  }
+  .floatright {
+    float: right;
+  }
+  /*--------------------*/
+  .headline {
+    padding: 10px;
+    background-color: #440a0a;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .headline h1 {
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(234, 241, 241);
+  }
+  .budget-app {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .content-right {
+    width: 40%;
+  }
+  .enter-budget-box,
+  .add-expense-box {
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .enter-budget-box {
+    border: 1px solid #333333;
+  }
+  .add-expense-box {
+    display: none;
+    border: 1px solid #333333;
+  }
+  .add-expense-box.visible {
+    display: block;
+  }
+  .content-right label {
+    font-size: 14px;
+    font-style: italic;
+  }
+  input {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    border: none;
+  }
+  input:focus {
+    width: 97%;
+    transition: 0.1s all ease;
+  }
+  .content-left button {
+    padding: 5px 15px;
+    background: none;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .enter-budget-box input {
+    border-bottom: 1px solid #333131;
+  }
+  .add-expense-box input {
+    border-bottom: 1px solid #333333;
+  }
+  #add-budget-btn {
+    border-color: #141314;
+  }
+  #add-budget-btn:active {
+    background: #333333;
+  }
+  #add-expense-btn {
+    border-color: #333333;
+  }
+  #add-expense-btn:active {
+    background: #333333;
+  }
+  .content-left {
+    width: 59%;
+    height: 80vh;
+    border: 1px solid #333333;
+    border-radius: 5px;
+  }
+  .balances {
+    padding: 5px;
+    margin-bottom: 25px;
+  }
+  .balances .items {
+    text-align: center;
+    width: 32%;
+    display: inline-block;
+  }
+  .balances .items p {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .balances .items p{
+    margin-bottom: 10px;
+  }
+  .expenses {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .expenses table {
+    text-align: center;
+    border: 1px solid #333333;
+    padding: 5px 0;
+  }
+  .expenses table td {
+    width: 1%;
+  }
+  #expense-list {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    height: 210px;
+    overflow-y: scroll;
+  }
+  #expense-list td {
+    height: 30px;
+    width: 1%;
+  }
+  .expenses table thead {
+    margin-bottom: 20px;
+  }
+
+  .budget-amount,
+  .balance-amount,
+  .expenses-amount {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .budget-amount {
+    color: rgb(2, 24, 9);
+  }
+  .balance-amount {
+    color: rgb(6, 51, 83);
+  }
+  .expenses-amount {
+    color: rgba(35, 39, 3, 0.918);
+  }
+  #reset-app-btn {
+    border-color: rgba(53, 14, 4, 0.918);
+  }
+  #reset-app-btn:active {
+    background: rgba(48, 12, 3, 0.918);
+  }
+  #currency {
+    margin-bottom: 20px;
+  }
+  .del-btn {
+    border: none;
+    color: rgb(10, 10, 10);
+  }
+  .del-btn {
+    background: none;
+    cursor: pointer;
+  }
